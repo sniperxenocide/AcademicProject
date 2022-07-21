@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.clientControl">
+   <children>
+      <Label layoutX="279.0" layoutY="88.0" text="Connect Client" />
+      <Label layoutX="71.0" layoutY="147.0" text="IP Address:" />
+      <Label layoutX="71.0" layoutY="192.0" text="Student ID:" />
+      <Label layoutX="71.0" layoutY="252.0" text="Port:" />
+      <TextField fx:id="IP" layoutX="169.0" layoutY="143.0" text="127.0.0.1" />
+      <TextField fx:id="SID" layoutX="169.0" layoutY="188.0" text="1305053" />
+      <TextField fx:id="PORT" layoutX="169.0" layoutY="248.0" text="5555" />
+      <Button fx:id="connect" layoutX="419.0" layoutY="311.0" mnemonicParsing="false" onAction="#connectToServer" text="Connect" />
+   </children>
+</AnchorPane>
